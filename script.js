@@ -32,7 +32,7 @@ function updateView() {
 
 function getAnswer(){
 
-    randomNumber = Math.floor(Math.random() * 11);
+    randomNumber = Math.floor(Math.random() * answerList.length);
     if(randomNumber == previousRandomNumber){
         getAnswer();
     }
