@@ -1,0 +1,35 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.shapeborder {
+    border: 1px solid black;
+}
+
+.circle {
+    border-radius: 50%;
+    user-select: none;
+}
+
+.outer {
+    background-image: linear-gradient(to bottom, rgb(83, 80, 80) 0%,
+            rgb(13, 14, 13) 100%);
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    background-color: rgb(247, 247, 244);
+    top: 33%;
+    left: 33%;
+    width: 45%;
+    height: 45%;
+    padding: 5%;
+    position: relative;
+}
