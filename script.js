@@ -3,7 +3,7 @@ let answerText = 8;
 let answerList = [
 
     "I don't know",
-    "Maybe later",
+    "Maybe",
     "Yes",
     "Of course!",
     "Probably not..",
@@ -24,7 +24,8 @@ let previousRandomNumber;
 updateView();
 function updateView() {
     app.innerHTML = /*HTML*/ `
-        <div class="outer circle shapeborder" onclick="getAnswer()">
+        <div class="outer circle shapeborder"
+        onclick="getAnswer()">
         <div class="inner circle shapeborder">${answerText}</div>
         </div>
     `;
